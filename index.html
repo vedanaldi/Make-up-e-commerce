@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Ecommerce</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .dm-serif-text-regular {
+            font-family: "DM Serif Text", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 27px;
+        }
+
+        .hero {
+            background: url('brush.jpg') no-repeat center center;
+            background-size: cover;
+            height: 600px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        .hero h1,
+        .hero p,
+        .hero a {
+            position: relative;
+            z-index: 2;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .btn-teal {
+            background-color: #007b7f;
+            color: white;
+        }
+
+        .btn-teal:hover {
+            background-color: #005f60;
+        }
+
+        footer {
+            background-color: #007b7f;
+            color: white;
+            padding: 30px 0;
+        }
+
+        .footer-links a {
+            color: white;
+            margin: 0 15px;
+        }
+
+        .social-media a {
+            color: white;
+            /* Change icon color to white */
+        }
+
+        .text-muted {
+            color: #e0e0e0;
+            /* Lighter shade for copyright text */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-dark text-white">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+            <div class="logo">
+                <h1 class="h4 dm-serif-text-regular">Makeup Store</h1>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <h1>Welcome to Makeup Store — Your Ultimate Beauty Destination</h1>
+        <p>Join thousands of users discovering the latest trends and products.</p>
+        <div>
+            <a href="signin.html" class="btn btn-teal btn-lg mr-3">Sign In</a>
+            <a href="signup.html" class="btn btn-teal btn-lg">Sign Up</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="lipstick.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Lipstick</h5>
+                        <p class="card-text">₱1,149.00</p>
+                        <a href="#" class="btn btn-teal">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="foundation.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Foundation</h5>
+                        <p class="card-text">₱1,725.00</p>
+                        <a href="#" class="btn btn-teal">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="eyeshadow-pallete.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Eyeshadow Palette</h5>
+                        <p class="card-text">₱2,300.00</p>
+                        <a href="#" class="btn btn-teal">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="footer-links">
+                <h5>Quick Links</h5>
+                <a href="#privacy">Privacy Policy</a> |
+                <a href="#terms">Terms of Service</a> |
+                <a href="#faqs">FAQs</a>
+            </div>
+            <div class="social-media my-3">
+                <h5>Follow Us</h5>
+                <a href="https://www.facebook.com" target="_blank" class="mr-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="mr-3"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="contact-info my-3">
+                <h5>Contact Us</h5>
+                <p>Email: support@makeupstore.com | Phone: (123) 456-7890</p>
+            </div>
+            <div class="text-muted small">
+                <p>&copy; 2024 Makeup Store. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+Landing Page Structure
+• Header:
+  o Logo: A simple logo or company name in the top-left corner.
+  o Navigation Links (optional): Links to other sections such as "About," "Features," "Contact Us."
+
+• Main Section:
+  o Headline/Tagline: A compelling phrase about the purpose of the application, e.g.,"Welcome to [App Name] — Your Ultimate [Purpose]."
+
+• Subheadline: A short description highlighting the app's key benefits or features, e.g., "Join
+thousands of users managing their tasks efficiently with us."
+
+• Sign In and Sign Up Buttons:
+  o Sign In Button: A button that redirects to a sign-in form.
+  o Sign Up Button: A button for new users to create an account, also leading to separate sign-up page.
+  o Both buttons should be prominently placed and distinguishable.
+
+The Sign In section can be in the form of a modal, separate page, or embedded form.
+
+Form Fields:
+• Email: A field to capture the user's email.
+• Password: A field to capture the password.
+• Forgot Password Link: In case the user forgets their credentials.
+Buttons:
+• Sign In: To submit the form and authenticate the user.
+
+The Sign Up section can follow the same design pattern as the Sign In section.
+Form Fields:
+• Full Name: To capture the user's name.
+• Email: For email sign-up.
+• Password: For creating a secure password.
+• Confirm Password: To ensure the password matches.
+• Terms & Conditions Checkbox: To agree to the app’s terms of service.
+Buttons:
+• Sign Up: To submit the sign-up form
